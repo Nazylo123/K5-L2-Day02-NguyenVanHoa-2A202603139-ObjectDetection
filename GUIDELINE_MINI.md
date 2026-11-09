@@ -22,6 +22,6 @@
 
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
-| `drive_...` | | | |
-| `drive_...` | | | |
-| `drive_...` | | | |
+| `drive_002` | Giữa ngã tư có xe khách trắng thân dài, dễ lẫn `bus` với `van`. Mép phải có xe bạc bị cắt khung. Cùng ảnh có taxi, sedan và người đi bộ. | Xe khách trắng = `bus`. Xe bạc mép phải = `van`, box chạm đúng biên ảnh. Taxi và sedan = `car`. Không gán người đi bộ. | `bus` là xe chở khách thân dài; `van` là van/minivan. Vật bị cắt khung chỉ bao phần nằm trong ảnh. Người đi bộ ngoài bốn lớp. |
+| `drive_018` | Cột đèn che dọc khung. Bên trái có xe máy và người. Taxi vàng nằm sát lề. Cuối đường có một xe tối, nhỏ nhưng còn thấy thân. | Taxi = `car`. Xe tối cuối đường = `truck`. Không gán xe máy và người. Box không lấy cột đèn hay nền đường. | Lớp theo loại xe, kể cả xe đang đỗ hoặc bị che một phần. Xe máy và người không thuộc schema. Xe nhỏ chỉ gán khi còn nhận ra lớp. |
+| `drive_042` | Mái một xe bị cắt mép dưới. Bên phải có xe khách hai tầng và một xe thùng nhỏ chất bao tải, dễ gọi nhầm thành `truck`. Có taxi đỏ. | Mái xe cắt khung = `van`, box chạm mép dưới. Xe hai tầng = `bus`. Xe thùng nhỏ chất đồ = `van`. Taxi đỏ = `car`. | Không suy phần xe nằm ngoài ảnh. `truck` dành cho xe tải thùng lớn, xe ben hoặc đầu kéo. Xe thùng nhỏ chở hàng thuộc `van`. |
