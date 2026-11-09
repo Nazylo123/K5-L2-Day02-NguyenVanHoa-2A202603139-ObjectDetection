@@ -59,7 +59,7 @@ Sau sửa, 49/50 ảnh khớp hết số box. Chỉ `drive_002` còn 11/13 box g
 
 Colab đang chạy. Chưa điền precision, recall, mAP và chưa gắn ảnh prediction.
 
-- Runtime, GPU/CPU, phiên bản Ultralytics và Torch: chưa có
+- Runtime, GPU/CPU, phiên bản Ultralytics và Torch: python 3. T4 GPU
 - Các tham số thay đổi so với notebook nếu có và lý do: chưa đổi tham số; chạy đúng notebook với nhãn đã qua cổng gold
 - Đường dẫn best checkpoint trong phiên chạy: "/content/Day2-Lab/outputs/yolo26_runs/vehicle_annotation/weights/best.pt"
 
